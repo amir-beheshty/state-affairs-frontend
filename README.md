@@ -1,4 +1,21 @@
-# React + TypeScript + Vite
+# Local Setup
+
+1. Make sure you have [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) installed.
+
+2. Use `npm` or [pnpm](https://pnpm.io/installation)
+   - Note: this project is shipped with `pnpm-lock.yaml`.
+
+3. Make sure [the server](https://github.com/amir-beheshty/state-affairs-backend) is running.
+
+Execute the following to setup and run the server:
+
+```bash
+nvm use # install required node-version if needed
+pnpm i
+pnpm dev
+```
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
